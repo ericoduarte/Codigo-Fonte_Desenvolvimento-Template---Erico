@@ -1,0 +1,30 @@
+#btn-bag{
+    background-color: #488cf5;
+}
+
+#btn-bag:hover{
+    background-color: #8a378d;
+}
+
+.menu-toggle{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.menu-toggle > img{
+    height: 40px;
+    width: 40px;
+
+}
+
+.menu-toggle > img:hover{
+    transform: scale(1.2)
+}
+
+.item-menu-responsive{
+    visibility: hidden;
+}
